@@ -1,0 +1,171 @@
+/* Menu navegação */
+.menu-navegacao__certificados--lista {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu-navegacao__certificados--item {
+    margin-left: 2em;
+    word-spacing: 1em;
+}
+
+/* Título principal */
+
+.certificados__titulo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.8em;
+}
+
+.certificados__titulo-principal--item {
+    font-size: 20px;
+    margin-top: 1em;
+}
+
+.certificados__imagem {
+    background: url("../img/maozinhaMobile.svg") no-repeat;
+    padding: 2em 2.5em;
+}
+
+
+/* seções */
+
+.certificados__container {
+    line-height: 26px;
+    margin: 1.5em 2em;
+}
+
+.certificados__titulo--secao {
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+
+.certificados__lista {
+    list-style-type: square;
+}
+
+.certificados__container--raio {
+    display: flex;
+    flex-direction: row;
+}
+
+.certificados__raio {
+    background: url("../img/raioMobile.svg") no-repeat;
+    padding: 1.5em 4.2em;
+}
+
+.certificados__item--link {
+    color: var(--preto-fonte);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.certificados__item--link:hover {
+    color: var(--houver-mouse);
+    text-decoration: underline;
+    text-underline-position: under;
+    transition: 0.5s;
+}
+
+.certificados__item--link:visited {
+    color: var(--visited-mouse);
+}
+
+
+@media screen and (min-width: 733px) {
+    .certificados__raio {
+        display: none;
+    }
+
+    .certificados__container--raio {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .certificados__titulo-principal {
+        margin: 1em 3em 0 3em;
+        padding-right: 10em;
+    }
+
+    .certificados__container--maior733 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 3em;
+    }    
+
+    .certificados__container {
+        display: flex;
+        flex-direction: column;
+        margin: 1em 0;
+    }
+
+    .certificados__container:first-child {
+        margin-top: 0.5em;
+    }
+
+    .certificados__ilustracao--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+    .certificados__ilustracao--passaromaior733 {
+        background: url("../img/passarotablet.svg") no-repeat;
+        padding: 4em;
+        margin-top: 10em;
+    }
+
+    .certificados__ilustracao--raiomaior733 {
+        background: url("../img/raiotablet.svg") no-repeat;
+        margin-bottom: 4em;
+        padding: 4em;        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .menu-navegacao__certificados--lista {
+        margin-left: 4em;
+    }
+
+    .menu-navegacao__certificados--item {
+        align-items: center;
+        display: flex;
+        height: 45px; }
+
+    .certificados__titulo-principal--item {
+        font-size: 24px;
+    }
+
+    .certificados__container--maior733 {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .certificados__ilustracao--container {
+        flex-direction: column-reverse;
+    }
+
+    .certificados__lista {
+        list-style-type: square;
+        line-height: 32px;
+    }
+
+    .certificados__ilustracao--raiomaior733 {
+        margin-right: 3em;
+        margin-top: 5em;
+    }
+
+    .certificados__ilustracao--passaromaior733 {
+        margin-bottom: 5em;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .menu-navegacao__certificados--lista {
+        margin-left: 15em;
+    }
+}

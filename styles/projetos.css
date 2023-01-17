@@ -1,0 +1,122 @@
+.projeto__cartao--container {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+} 
+
+.projeto__cartao {
+    background-color: var(--cor-cartao-projetos);
+    border-radius: 15px;
+    box-shadow: 7px 7px 7px 0 #000000cb;
+    height: auto;
+    margin: 1em 0;
+    opacity: 1;
+}
+
+.projeto__cartao:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.projeto__cartao--barbearia {
+    background: no-repeat url("../img/projeto-barbeariaalura.png");
+    background-size: contain;
+    background-color: var(--cor-cartao-projetos);
+}
+
+.projeto__cartao--aluraplus {
+    background: no-repeat url("../img/projeto-aluraplus.png");
+    background-size: contain;
+    background-color: var(--cor-cartao-projetos);
+}
+
+.projeto__cartao--alurabooks {
+    background: no-repeat url("../img/projeto-alurabooks.png");
+    background-size: contain;
+    background-color: var(--cor-cartao-projetos);
+}
+
+.projeto__cartao--conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 45%;
+}
+
+.projeto__cartao--titulo {
+    font-size: 18px;
+    margin: 0.5em 0.5em;
+
+}
+
+.projeto__cartao--info {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 0.5em 0.5em 0.5em;
+}
+
+.projeto__cartao--link {
+    color: var(--branco-fonte);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.projeto__cartao--link:hover {
+    color: var(--houver-mouse);
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-position: under;
+    transition: 0.5s;
+    border: var(--branco-fonte);
+}
+
+
+.projeto__localizacao {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    margin: 0 1em 1em 0;
+}
+
+.projeto__link--localizacao {
+    color: var(--preto-fonte);
+    color: var(--preto-fonte);
+    cursor: pointer;
+    padding-left: 0.3em;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.projeto__link--localizacao:hover {
+    color: var(--houver-mouse);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.projeto__link--localizacao:visited {
+    color: var(--visited-mouse);
+}
+
+
+@media screen and (min-width: 440px) {
+    .projeto__cartao--container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0;
+        min-width: 100vw;
+    }
+
+    .projeto__cartao {
+        height: auto;
+        margin-top: 1em;
+        width: 280px;
+    }
+
+    .projeto__localizacao {
+        margin: 0 3em 1em 0;
+    }
+}

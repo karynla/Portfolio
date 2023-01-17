@@ -1,0 +1,56 @@
+@import url("styles/cabecalho.css");
+@import url("styles/banner.css");
+@import url("styles/trajetoria.css");
+@import url("styles/formacao.css");
+@import url("styles/experiencia.css");
+@import url("styles/projetos.css");
+@import url("styles/rodape.css");
+@import url("styles/certificados.css");
+
+:root {
+    --branco-fonte: #D9D9D9;
+    --branco-fundo: #FFFFFF;
+    --cor-cartao-projetos: #2c343a;
+    --fonte-principal: "Rubik";
+    --houver-mouse: #7C8166;
+    --preto-fonte: #000000;
+    --preto-menu-rodape: #000000;
+    --verde-claro: #DAE0C2;
+    --visited-mouse: #565f43;
+}
+
+body {
+    background-color: var(--branco-fundo);
+    color: var(--preto-fonte);
+    font-family: var(--fonte-principal), 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.trajetoria__titulo, .formacao__titulo, .experiencia__titulo, .projeto__titulo {
+    background-color: var(--verde-claro);
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    height: 60px;
+}
+
+.trajetoria__item, .formacao__texto, .experiencia__texto, .projeto__texto {
+    margin: auto;
+}
+
+@media screen and (min-width: 733px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    .trajetoria__titulo, .formacao__titulo, .experiencia__titulo, .projeto__titulo {
+        font-size: 20px;
+    }
+}

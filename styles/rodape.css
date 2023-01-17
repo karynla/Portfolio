@@ -1,0 +1,39 @@
+.rodape {
+    align-items: center;
+    background-color: var(--preto-menu-rodape);
+    color: var(--branco-fonte);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.rodape__titulo {
+    margin: 0.5em;
+}
+.rodape__email {
+    margin: 0 0.5em 0.5em 0.5em;
+    color: var(--branco-fonte);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rodape__icone--lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape__icone--item {
+    margin: 0 1em 0 1em;
+    cursor: pointer;
+}
+
+.rodape__copy {
+    margin: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        font-size: 16px;
+    }
+}
