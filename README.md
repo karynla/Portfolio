@@ -1,7 +1,7 @@
-<h1>Portfólio Karyn</h1>
 
 
-# Guia de estilos
+
+## Guia de estilos
 
 Toda a estilização que será usada no projeto dentro do figma.
 
@@ -39,6 +39,6 @@ houver: #7C8166
 
 Tamanho do dispositivo mobile: `428px`
 
-Tamanho do dispositivo desktop: `1024px`
+Tamanho do dispositivo desktop: `933px`
 
-Largura máxima do conteúdo principal: `1728px`
+Largura máxima do conteúdo principal: `1024px`
