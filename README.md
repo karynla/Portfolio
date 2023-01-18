@@ -1,7 +1,7 @@
-
-
+![capareadme](https://user-images.githubusercontent.com/99372279/213219663-81cb9955-5065-4863-a63e-5087034898aa.png)
 
 ## Guia de estilos
+
 
 Toda a estilização que será usada no projeto dentro do figma.
 
