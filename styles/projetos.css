@@ -37,7 +37,7 @@
     background-color: var(--cor-cartao-projetos);
 }
 
-.projeto__cartao--alurabooks {
+.projeto__cartao--adopet {
     background: no-repeat url("../img/projeto-adopet.png");
     background-size: contain;
     background-color: var(--cor-cartao-projetos);
